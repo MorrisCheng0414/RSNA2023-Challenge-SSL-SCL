@@ -67,6 +67,7 @@ Root/
 ```
 
 ## Execution
+⚠️**To run the program, navigate to the parent directory of the cloned repo and execute the script from there**
 ### Download pretrain weights (CLI)
 Please run the below code for downloading the pretrain weights.
 ```bash
