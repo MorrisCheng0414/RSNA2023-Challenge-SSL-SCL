@@ -1,0 +1,68 @@
+barlowtwins:
+  feature_dim: 368
+  hidden_dim: 2048
+  hidden_layer_num: 1
+  proj_dim: 2048
+  lambd: 0.0051
+
+byol:
+  feature_dim: 368
+  hidden_dim: 2048
+  hidden_layer_num: 1 
+  proj_dim: 2048
+  momentum: 0.99
+
+moco:
+  pos_temp: 0.06
+  neg_temp: 0.07
+  feature_dim: 368
+  hidden_dim: 768
+  hidden_layer_num: 1
+  proj_dim: 256 
+  queue_size: 640
+  momentum: 0.995
+
+simsiam:
+  feature_dim: 368
+  hidden_dim: 2048
+  hidden_layer_num: 1
+  proj_dim: 2048
+
+supcon:
+  temp: 0.07
+
+unimoco:
+  pos_temp: 0.06
+  neg_temp: 0.08
+  feature_dim: 368
+  hidden_dim: 768
+  hidden_layer_num: 1
+  proj_dim: 256
+  queue_size: 640
+  momentum: 0.999
+
+unimoco_enet:
+  feature_dim: 1000
+  hidden_dim: 2000
+
+unimoco_convnext:
+  feature_dim: 1000
+  hidden_dim: 2000
+
+tico:
+  beta: 0.9
+  rho: 8.0
+  feature_dim: 368
+  hidden_dim: 1024
+  hidden_layer_num: 1
+  proj_dim: 1024
+  init_m: 0.99
+
+vicreg:
+  feature_dim: 368
+  hidden_dim: 2048
+  hidden_layer_num: 2
+  proj_dim: 2048
+  sim_coeff: 25.0
+  std_coeff: 25.0
+  cov_coeff: 1.0
