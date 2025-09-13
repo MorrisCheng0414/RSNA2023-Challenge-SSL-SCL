@@ -26,9 +26,15 @@ Below is a list of data we used in the thesis:
 5. ```submission.csv```: A valid sample submission. Only the first few rows are available for download.
 
 ## Segmented Dataset
+
+### Kaggle
 The segmented dataset used in the experiments is stored on Kaggle, please refer to [the dataset webpage](https://www.kaggle.com/datasets/morrisistaken/rsna23-256x256-roi-png). 
 
 After downloading the dataset to your local machine, please change the dataset path in ```dataset_dir.yaml```.
+
+### Hugging Face
+Alternatively, you can load the dataset directly using the `datasets` package.  
+For detailed information and usage instructions, please visit the [Hugging Face dataset repository](https://huggingface.co/datasets/Morris-is-taken/RSNA_23_256x256_ROI_PNG).
 
 ## Folder Structure
 ```
